@@ -20,7 +20,12 @@ class Calculator{
             SaveResult.add(getO() * getT());
             result = getO() * getT();
         } else if (op == '/') {
-            if (t == 0) {
+          
+            if (t != 0) {
+                SaveResult.add(getO() / getT()); // 안녕하세요
+                result = getO() / getT();
+            } else {  // 안녕하세요.
+
                 System.out.println("나눗셈에서 분모는 0일 수 없습니다.");
                 System.out.println("값이 저장되지 않습니다.");
                 return 0;
@@ -31,7 +36,7 @@ class Calculator{
         } else {
             System.out.println("잘못 입력되었습니다.");
         }
-        return 0;
+        return 0;  // 안녕하세요
     }
 
     public Queue<Integer> getSaveResult() {
