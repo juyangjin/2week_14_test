@@ -83,8 +83,8 @@ public class App {
         Calculator cal = new Calculator(); // 인스턴스 생성
         Scanner sc = new Scanner(System.in);
         int f = 0;
-        int one = 0;
-        int two = 0;
+
+
         String ex = "";
 
         A : while (true) {
@@ -106,11 +106,11 @@ public class App {
                     f = 0;
                 }
             }else if(f == 0){
-                System.out.println("양의 정수 2개를 입력해주세요.");
+                System.out.println("양의 정수 5개를 입력해주세요.");   //안녕하세요
                 cal.setO(Integer.parseInt(sc.nextLine()))   ;
                 cal.setT(Integer.parseInt(sc.nextLine()));
                 if (one < 0 || two < 0) {
-                    System.out.println("잘못 입력되었습니다. 프로그램이 종료됩니다.");
+                    System.out.println("잘못 입력되었습니다. 프로그램이 종료됩니다.");     //반갑습니다
                     f = 1;
                 } else {
                     System.out.println("입력된 값은 " + cal.getO() + "과 " + cal.getT() + "입니다.");
@@ -121,6 +121,15 @@ public class App {
                     System.out.println("계산된 값은 " + result + "입니다.");
                     System.out.println("현재까지 계산한 값은 " + cal.getSaveResult() + "입니다.");
                     f = 1;
+
+                    dasdsadsa;ldlassadmas;
+                    saldasldasmld;asmd;lasmdlsadlas;
+                    ssaldmasldmsaldalsmdaslsadlasdasdasdmf
+                            l,asld,asld,asld,alsadlas,d
+
+
+
+
                 }
             }
         }
