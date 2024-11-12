@@ -21,15 +21,15 @@ class Calculator{
             result = getO() * getT();
         } else if (op == '/') {
             if (t != 0) {
-                SaveResult.add(getO() / getT());
+                SaveResult.add(getO() / getT()); // 안녕하세요
                 result = getO() / getT();
-            } else {
+            } else {  // 안녕하세요.
                 System.out.println("나눗셈에서 분모는 0일 수 없습니다.");
             }
         } else {
             System.out.println("잘못 입력되었습니다.");
         }
-        return 0;
+        return 0;  // 안녕하세요
     }
 
     public Queue<Integer> getSaveResult() {
